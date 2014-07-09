@@ -1,0 +1,12 @@
+{
+  "name": "npm-pack-bug",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "date > generated/generated.js && date > generated/generated.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": ["generated"]
+}

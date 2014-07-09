@@ -17,3 +17,7 @@ included in the tarball, which is a state which triggers the bug (there might be
 
 The bug seems to be related to the precense or absence of the .gitignore and .npmignore file 
 and/or the precense of the files attribute in package.json
+
+To avoid the bug (at least for this repo) just add an empty .npmignore file. This is OK since
+we've specified the files that should go into the package in package.json => files. We don't
+need to also specify what we don't want in .npmignore

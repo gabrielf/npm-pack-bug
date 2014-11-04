@@ -1,6 +1,8 @@
 npm pack bug
 ============
 
+**It seems this bug has been fixed in npm 1.4.28!**
+
 npm pack yields inconsistent results where files are sometimes included and sometimes not.
 
 To reproduce the bug run:
